@@ -1,0 +1,551 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background: #01011F;
+    color: white;
+}
+        /*Mixes*/
+.content{
+    width: 100vw;
+    max-width: 1154px;
+    margin: auto;
+}
+.title{
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 54px 0 0 0;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.button-rainbow{
+    color: white;
+    font-size: 18px;
+    background: linear-gradient(265.48deg, #4870FF -5.06%, #FA00FF 94.87%);
+    box-shadow: 0 4px 16px rgba(138, 97, 255, 0.6);
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    border: 0px;
+}
+.button-empty{
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+button:active{
+    box-shadow: inset 0px 0px 10px #718b98;
+}
+a:active{
+    text-shadow: 0px 0px 20px #ffffff;
+}
+        /*Mixes end*/
+.header{
+    background-color: rgba(1, 1, 31, 0.4);
+    height: 72px;
+    display: flex;
+    align-content: center;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+}
+.header-content__logo{
+    margin-left: 10px;
+}
+.header-buttons{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.header-nav{
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 40px;
+}
+.header-nav__content{
+    margin: 10px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.header-nav__content_active{
+    background: linear-gradient(265.48deg, #4870FF -5.06%, #FA00FF 94.87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 21px 0;
+    border-width: 5px;
+    border-style: solid;
+    font-weight: bold;
+    border-image:linear-gradient(to left,#4870FF -5.06%, #FA00FF 94.87%) 0 1 100%;
+}
+.header-buttons__signup{
+    width: 114px;
+    height: 40px;
+    color: white;
+}
+.header-buttons__login{
+    width: 114px;
+    height: 40px;
+    color: white;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro__title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-top: 54px;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.intro__description{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.intro-buttons__login{
+    width: 160px;
+    height: 44px;
+    border: 2px solid;
+    margin: 0 8px;
+    color: white;
+}
+.intro-buttons__play{
+    margin: 0 8px;
+    width: 164px;
+    height: 48px;
+    color: white;
+}
+.registration{
+    width: 70vw;
+    max-width: 864px;
+    margin-top: 60px;
+    background: linear-gradient(268.31deg, rgba(79, 89, 124, 0.4) 0%, rgba(123, 135, 175, 0.4) 50.52%, rgba(63, 72, 105, 0.4) 100%);
+    border: 1px solid #3A4054;
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 16px;
+}
+.registration-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.registration-icons{
+    display: flex;
+    align-items: center;
+}
+.registration-container__title{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.registration-icons__item{
+    width: 36px;
+    height: 36px;
+    margin-right: 6px;
+}
+.registration-icons__item-description{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+    width: 80px;
+    overflow-wrap: break-word;
+}
+.registration-form{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.registration-inputs{
+    display: flex;
+    align-items: center;
+}
+.registration-form__input{
+    border: 0px;
+    border-radius: 8px;
+    width: 23%;
+    height: 32px;
+    padding: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-right: 2%;
+}
+.registration-form__button{
+    width: 23%;
+    height: 60px;
+    color: white;
+}
+.registration-privacy{
+    display: flex;
+    align-items: center;
+}
+.registration-form__checkbox{
+    width: 14px;
+    height: 14px;
+    background: rgba(255, 255, 255, 0.93);
+    margin-right: 8px;
+}
+.registration-form__text{
+    font-weight: 400;
+    font-size: 14px;
+}
+.main-container{
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-container__text{
+    margin: 2px 0 0 0;
+}
+.games{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.game-small{
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+.game-small img{
+    height: 120px;
+    border-radius: 16px;
+}
+.game-small__title{
+    font-family: 'Roboto', sans-serif;
+    margin: 6px 0 0 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+.game-small__text{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    opacity: 0.5;
+}
+.game-medium{
+    width: 248px;
+    position: relative;
+    margin-right: 16px;
+    height: 160px;
+    margin-bottom: 16px;
+}
+.game-medium img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+.medium_container{
+    position: absolute;
+    top: 16px;
+    left: 12px;
+}
+.game-medium__title{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 5px 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    width: 132px;
+}
+.game-medium__text{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    width: 162px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+}
+.game-medium__button{
+    position: relative;
+    bottom: 48px;
+    left: 12px;
+    width: 68px;
+    height: 22px;
+    background: #4870FF;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    border: 0px;
+    color: #FFFFFF;
+}
+.promotion{
+    height: 160px;
+    margin: 0 16px 0 0;
+}
+.promotion img{
+    width: 512px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.promotion__button{
+    float: right;
+    width: 68px;
+    height: 22px;
+    background: #4870FF;
+    border-radius: 12px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    border: 0px;
+    color: #FFFFFF;
+}
+.main__text{
+    margin: 24px 0 0 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    width: 655px;
+}
+.outro{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+}
+.contacts__text{
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+}
+.contacts__input{
+    width: 400px;
+    height: 32px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 16px 0 0 0;
+    border: 0px;
+    padding: 12px;
+}
+.contacts-inputs{
+    display: flex;
+    flex-direction: column;
+}
+.contacts__textarea{
+    height: 116px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 16px 0 0 0;
+    border: 0px;
+    width: 400px;
+    padding: 12px;
+    resize: none;
+}
+.contacts-container{
+    margin-top: 16px;
+    max-width: 424px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.contacts__button{
+    width: 124px;
+    height: 36px;
+}
+.outro__image{
+    position: relative;
+    top: 40px
+}
+.footer{
+    margin-top: 88px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-nav_item{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 10px;
+}
+.footer__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-icons__item{
+    width: 24px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    border: rgba(255, 255, 255, 0);
+}
+.bg-dark{
+    background: #01011F;
+}
+.bg-night{
+    background-image: url("img/bg_contact.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:  inset 0px 33px 25px 0 rgba(0, 0, 0, 0), inset 0 66px 20px 0px #01011F,inset 0 99px 5px 0px rgba(1, 1, 31, 0)
+}
+.bg-slot{
+    background-image: url("img/bg_hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -250px;
+    box-shadow:  inset 0px -33px 25px 0 rgba(0, 0, 0, 0), inset 0 -66px 20px 0px #01011F,inset 0 -99px 5px 0px rgba(1, 1, 31, 0)
+}
+.overlay_popup {
+    display: none;
+    position:fixed;
+    z-index: 999;
+    top:0;
+    left:0;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    margin-top: -50vh;
+    margin-left: -35vw;
+}
+.popup-inputs{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.popup__input{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 16px 0 0 0;
+    border: 0px;
+    padding: 12px;
+    width: 50%;
+    height: 40px;
+    border-radius: 8px;
+}
+.popup_container{
+    justify-content: center;
+}
+.popup__title{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.popup__button{
+    margin: 16px 0 0 0;
+    border-radius: 40px;
+    width: 120px;
+    height: 60px;
+}
+.preloader > p {
+    display: none;
+}
+.preloader_preload {
+    display: block;
+    position: fixed;
+    z-index: 99999;
+    width: 5000px;
+    height: 5000px;
+    top: 50%;
+    left: 50%;
+    margin-top: -2500px;
+    margin-left: -2500px;
+    min-width: 1000px;
+    background: #000000 url(http://hello-site.ru//main/images/preloads/puff.svg) center center no-repeat;
+    background-size: 174px;
+}
+
+@media only screen and (max-width: 1152px) {
+    .games{
+        flex-direction: column;
+        align-items: center;
+    }
+    .game-small img{
+        height: 200px;
+        max-width: 360px;
+    }
+    .main-container{
+        display: none;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 785px) {
+    .outro__image{
+        display: none;
+    }
+    .contacts{
+        margin: auto;
+    }
+    .registration-icons{
+        display: none;
+    }
+    .registration-inputs{
+        flex-direction: column;
+    }
+    .registration-form__input{
+        margin-bottom: 16px;
+        width: 80%;
+    }
+    .registration-privacy{
+        justify-content: center;
+    }
+
+}
+@media only screen and (max-width: 685px) {
+    .header-nav__content{
+        display: none;
+    }
+}

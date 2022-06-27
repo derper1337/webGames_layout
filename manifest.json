@@ -1,0 +1,12 @@
+{
+	"short_name": "html5 games",
+	"name": "html5 games",
+	"lang": "en",
+	"description": "very cool html5 games",
+	"background_color": "#585b75",
+	"theme_color": "#000000",
+	"dir": "auto",
+	"display": "standalone",
+	"orientation": "any",
+	"prefer_related_applications": false
+}
